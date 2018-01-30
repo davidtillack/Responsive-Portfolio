@@ -377,7 +377,6 @@ input[type=submit] {
     float:left;
     width:248px;
   }
-
 }
 
 @media screen and (max-width:640px){ /* Phone */
@@ -398,6 +397,16 @@ input[type=submit] {
 
   h2, .social, #connect{
     float:left;
+  }
+
+  .work img, .work h3{
+    width:100%;
+    float:left;
+  }
+
+  div.work{
+    float:left;
+    width:100%;
   }
 
   img.social{
@@ -433,6 +442,18 @@ input[type=submit] {
 
   header{
     position:static;
+  }
+
+body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+  }
+
+footer{ /* to save my life this footer will not take 100% of the page when this small... I tried deleting
+            the container but still did not help make this 100% */
+    width:100%;
+    margin:0px;
   }
 }
 
